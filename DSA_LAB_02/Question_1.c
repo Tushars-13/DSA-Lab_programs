@@ -1,6 +1,6 @@
-//  Ques_1. Write the program using recursive function: (i). Find sum of first N numbers.
-//  (ii). Find the sum of digits of a number. (iii). Find an (iv). Find prime factors of
-//  a number. (v). Find GCD of a number. (vi). Print Fibonacci series
+/*  Ques_1. Write the program using recursive function: (i). Find sum of first N numbers.
+  (ii). Find the sum of digits of a number. (iii). Find an (iv). Find prime factors of
+  a number. (v). Find GCD of a number. (vi). Print Fibonacci series (vii). Exit */
 
 #include<stdio.h>
 
@@ -64,7 +64,7 @@ int main()
     printf("4. Find prime factors of a number.\n");
     printf("5. Find GCD of a number.\n");
     printf("6. Print Fibonacci series.\n");
-    printf("99. Exit the program.\n");
+    printf("7. Exit the program.\n");
 
     int choice, N, ans;
    
@@ -130,7 +130,7 @@ int main()
             }
             printf("\n");
             break;
-    case 99:
+    case 7:
         printf("\nExiting the program.\n");
         break;
     default:
